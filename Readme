@@ -1,6 +1,29 @@
+This is a project focusing on root DNS resolution data, providing original resolution data from three measurement points 
+operated by the three major ISP (China Mobile, China Unicom, and China Telecom) in mainland China. The data includes the
+resolution of all top-level domains from 13 root DNS servers.
+
+The project includes the following four files:
+
+(1) query_data.zip: Contains the raw resolution data.
+(2) root_warning.zip: Contains abnormal event data (including deletion, tampering, and denial of service events).
+(3) rootsoa.zip: Contains the SOA (Start of Authority) record data for requested resolutions.
+(4) tld_server_instance.zop: Contains root zone data.
+
+All four files are in SQL format and can be directly imported into a MySQL database.
+
+If you need further information or wish to utilize our data, please feel free to contact us via email:
+Email: 981300198@qq.com
+
+
+中文描述：
 这是个关于根解析数据的项目，给出了在中国大陆，三个运营商（移动、联通、电信）测量点在向13个根解析所有顶级域名的原始解析数据：
-包括以下三个文件：
+包括以下四个文件：
 (1)query_data.zip, 原始解析数据；
 (2)root_warning.zip，异常警告数据（包括删除、篡改、拒绝服务三类事件）；
 (3)rootsoa.zip，请求解析的SOA记录数据；
-(4)
+(4)tld_server_instance.zop，根区数据。
+
+四个文件都是sql类型文件，使用时，直接导入mysql数据库即可。
+
+有需要了解和使用我们数据的，可以通过邮箱联系到我们。
+邮箱：981300198@qq.com
